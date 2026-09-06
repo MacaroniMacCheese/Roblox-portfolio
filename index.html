@@ -5,9 +5,14 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-  <h1 id="Main-Title">@marlinacarpsea </h1>
-  <p id="About-Me">Hi there! My name is Marlina, and I specialise in scripting, building, and designing UI. <br> However, I prefer scripting because it is my passion to bring something to life.</p>
+  <div class="banner">
+    <img src="Picture1.png" alt="Banner Image">
+    <div class="banner-text">@marlinacarpsea </div>
+  </div>
+
+  <p id="About-Me" style="margin-top: 28px">Hi there! My name is Marlina, and I specialise in scripting, building, and designing UI. <br> However, I prefer scripting because it is my passion to bring something to life.</p>
 
   <div class="tab-buttons">
     <button class="tab-btn active" onclick="switchTab(event, 'tab1')">INFORMATION</button>
@@ -16,104 +21,122 @@
   </div>
 
   <div id="tab1" class="tab-content active">
-    <hr>
-    <h2 id="OtherTitles">Experiences</h2>
-    <p>I started my journey in ROBLOX Studio in 2018, where I built maps and objects for fun.
-    <br>
-    Then, I started learning Luau in 2021 to improve my skills. I see myself as intermediate-level scripter.
-    <br><br>
-    Here is the list of things I can do:
-    </p>
-    <div style="text-align: center;">
-      <ul>
-        <li>Shop System</li>
-        <li>NPC System (Partially)</li>
-        <li>Data Store System</li>
-        <li>Team Picking System</li>
-        <li>UI Backend System</li>
-        <li>First Person Weapon System (Partially)</li>
-        <li>Map Voting and Map Loading System</li>
-        <li>Tower Defence System (Partially)</li>
-        <li>Data Store System</li>
-    </ul>
-    </div>
-    <p>I can do other things not included in the list, but only partially with my current knowledge. <br> I can mostly guarantee clean, organised, documented, and optimised scripts. </p>
-    <br>
-    <hr>
-    <h2 id="OtherTitles">Schedules</h2>
 
-    <p> My timezone is <b> GMT+8</b>. Most of the time, my schedule is mixed: some days I have free time to work, <br> and some days I can't because of school.
-    <br><br>
-    However, this is my default and estimated schedule: </p>
+  <div class="containerForSplitting">
+    <div class="sectionForSplitting">
+      <h2 id="OtherTitles">Schedules</h2>
+      <hr>
+      <br>
 
-    <div style="text-align: center;">
-      <ul>
-        <li>From <b> Saturday to Sunday</b>, I am free from <b> 8:00 AM to 11:00 PM. </b> </li>
-        <li>From <b> Monday to Friday </b>, it is mostly different since I have school during that time. <br> In the morning, I'm free from <b> 7:00 AM to 8:20 AM</b>, and in the evening, <br> I'm free from <b> 7:30 PM to 10:30 PM.</b></li>
-    </ul>
+        <p> My timezone is <b> GMT+8</b>. Most of the time, my schedule is mixed: some days I have free time to work, and some days I can't because of school.
+        <br><br>
+        However, this is my default and estimated schedule: </p><br>
+
+        <div style="text-align: center;">
+        <ul>
+          <li>From <b> Saturday to Sunday</b>, I am free from <b> 8:00 AM to 11:00 PM. </b> </li>
+          <li>From <b> Monday to Friday </b>, it is mostly different since I have school during that time. In the morning, I'm free from <b> 7:00 AM to 8:20 AM</b>, and in the evening, I'm free from <b> 7:30 PM to       10:30 PM.</b></li>
+          </ul>
+        </div>
     </div>
-    <hr>
-    <h2 id="OtherTitles">Payment</h2>
-    <p>I prefer payment in <b> Robux </b>. However, I can accept PayPal. <br> Additionally, I prefer partial payment, upfront payment or per-task payment, but this can be negotiated. </p>
-    <hr>
+
+    <div class="sectionForSplitting">
+            <h2 id="OtherTitles">Experiences</h2>
+            <hr><br>
+
+        <p>I started my journey in ROBLOX Studio in 2018, where I built maps and objects for fun.
+        Then, I started learning Luau in 2021 to improve my skills. I see myself as intermediate-level scripter.
+        <br><br>
+        Here is the list of things I can do:
+        </p>
+          <div style="text-align: center;">
+            <ul>
+          <li>Shop System</li>
+          <li>NPC System (Partially)</li>
+          <li>Data Store System</li>
+          <li>Team Picking System</li>
+          <li>UI Backend System</li>
+          <li>First Person Weapon System (Partially)</li>
+          <li>Map Voting and Map Loading System</li>
+          <li>Tower Defence System (Partially)</li>
+          <li>Data Store System</li>
+        </ul>
+        </div>
+        <p>I can do other things not included in the list, but only partially with my current knowledge.  I can mostly guarantee clean, organised, documented, and optimised scripts. </p>
+        <br>
+
+    </div>
+
+    <div class="sectionForSplitting">
+      <h2 id="OtherTitles">Payment</h2>
+      <hr><br>
+
+      <p>I prefer payment in <b> Robux </b>. However, I can accept PayPal. Additionally, I prefer partial payment, upfront payment or per-task payment, but this can be negotiated. </p>
+    </div>
   </div>
+
+  </div>
+
 
   <div id="tab2" class="tab-content">
-    <hr>
-    <h2 id="OtherTitles1">Sailors VS Pirates</h2>
-    <p>Sailors VS. Pirates. This is the only game to which I dedicated my time. This is my solo passion project, which I decided to pause temporarily.</p>
-    <div class="linkthing">
-      <a href="https://www.roblox.com/games/136651902826716/Sailors-vs-Pirates">Visit the game</a>
+    <div class="works-column">
+
+      <div class="project-row">
+        <h2 id="OtherTitles1">Sailors VS Pirates</h2>
+        <p>Sailors VS. Pirates. This is the only game to which I dedicated my time. This is my solo passion project, which I decided to pause temporarily. All models, user interfaces, systems, and scripts were made by me. The game is directly inspired by Pirate Wars.</p>
+        <div class="linkthing">
+          <a href="https://www.roblox.com/games/136651902826716/Sailors-vs-Pirates">Visit the game</a>
+        </div>
+        <br>
+        <video src="SailorsPreview.mp4" autoplay loop muted playsinline controls controlslist="nofullscreen" class="project-video" title="Sailors VS Pirates Preview"></video>
+        <br>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="Picture1.png" alt="Pic1" class="gallery-img">
+          </div>
+          <div class="gallery-item">
+            <img src="Picture2.png" alt="Pic2" class="gallery-img">
+          </div>
+          <div class="gallery-item">
+            <img src="Picture3.png" alt="Pic3" class="gallery-img">
+          </div>
+          <div class="gallery-item">
+            <img src="Picture4.png" alt="Pic4" class="gallery-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <h2 id="OtherTitles1">Warfare Architect</h2>
+        <p>Warfare Architect. This is another solo passion project where I tried to make my own tower defence game in January. I built the NPC system, placement system, and other systems completely from scratch. However, I have decided to cancel it.</p>
+        <div class="linkthing">
+          <a href="https://www.roblox.com/games/134194827688194/Warfare-Architect">Visit the game</a>
+        </div>
+        <br>
+        <video src="WarfarePreview.mp4" autoplay loop muted playsinline controls controlslist="nofullscreen" class="project-video" title="Warfare Architect Preview"></video>
+        <br>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="Picture5.png" alt="Pic1" class="gallery-img">
+          </div>
+          <div class="gallery-item">
+            <img src="Picture6.png" alt="Pic2" class="gallery-img">
+          </div>
+          <div class="gallery-item">
+            <img src="Picture7.png" alt="Pic3" class="gallery-img">
+          </div>
+          <div class="gallery-item">
+            <img src="Picture8.png" alt="Pic4" class="gallery-img">
+          </div>
+        </div>
+      </div>
+
     </div>
-      <br>
-<div class="gallery">
-  <div class="gallery-item">
-    <img src="Picture1.png" alt="Pic1" class="gallery-img">
-  </div>
-  <div class="gallery-item">
-    <img src="Picture2.png" alt="Pic2" class="gallery-img">
-  </div>
-  <div class="gallery-item">
-    <img src="Picture3.png" alt="Pic3" class="gallery-img">
-  </div>
-  <div class="gallery-item">
-    <img src="Picture4.png" alt="Pic4" class="gallery-img">
-  </div>
-</div>
 
-<div id="lightbox" class="lightbox">
-  <span class="close-btn">&times;</span>
-  <img class="lightbox-img" id="lightbox-img" src="" alt="Full View">
-</div>
-
-    <hr>
-    <h2 id="OtherTitles1">Warfare Architect</h2>
-    <p>Warfare Architect. This is another solo passion project where I tried to make my own tower defence game a few months ago. <br> However, I decided to abandon it because I lack assets and I can't do it by myself.</p>
-    <div class="linkthing">
-      <a href="https://www.roblox.com/games/134194827688194/Warfare-Architect">Visit the game</a>
+    <div id="lightbox" class="lightbox">
+      <span class="close-btn">&times;</span>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="Full View">
     </div>
-      <br>
-
-<div class="gallery">
-  <div class="gallery-item">
-    <img src="Picture5.png" alt="Pic1" class="gallery-img">
-  </div>
-  <div class="gallery-item">
-    <img src="Picture6.png" alt="Pic2" class="gallery-img">
-  </div>
-  <div class="gallery-item">
-    <img src="Picture7.png" alt="Pic3" class="gallery-img">
-  </div>
-  <div class="gallery-item">
-    <img src="Picture8.png" alt="Pic4" class="gallery-img">
-  </div>
-</div>
-
-<div id="lightbox" class="lightbox">
-  <span class="close-btn">&times;</span>
-  <img class="lightbox-img" id="lightbox-img" src="" alt="Full View">
-</div>
-<hr>
   </div>
 
   <div id="tab3" class="tab-content">
