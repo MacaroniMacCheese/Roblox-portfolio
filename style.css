@@ -1,7 +1,8 @@
+--- START OF FILE style.css ---
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 
 body {
@@ -205,7 +206,7 @@ margin-top: 25px;
 
 .project-video {
     width: 100%;
-    max-width: 925px;
+    max-width: 600px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     object-fit: cover;
@@ -254,28 +255,28 @@ video::-webkit-media-controls-fullscreen-button {
 
 .lightbox.active {
     display: flex;
+}
 
-    .lightbox-img {
-        max-width: 90%;
-        max-height: 90vh;
-        border-radius: 8px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-        object-fit: contain;
-    }
+.lightbox.active .lightbox-img {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
 
-    .close-btn {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        color: #fff;
-        font-size: 35px;
-        font-weight: bold;
-        cursor: pointer;
-        user-select: none;
-        transition: color 0.2s ease;
-    }
+.lightbox.active .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s ease;
+}
 
-    .close-btn:hover {
-        color: #ccc;
-    }
+.lightbox.active .close-btn:hover {
+    color: #ccc;
 }
